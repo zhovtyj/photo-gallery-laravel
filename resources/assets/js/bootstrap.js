@@ -21,6 +21,7 @@ try {
  */
 
 window.axios = require('axios');
+import moment from 'moment'
 
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 

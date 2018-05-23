@@ -12,5 +12,6 @@
 */
 
 Route::get('/', 'HomeController@index')->name('home');
+Route::get('/gallery/{id}/show', 'HomeController@index')->name('gallery.show');
 
 Auth::routes();
